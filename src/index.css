@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  background-color: #F089B1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 1.6rem;
+
+  color: #5D5966;
+}
+
+h1 {
+  font-size: 2.6rem;
+  color: #100E14;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #100E14;
+}
+
+.card {
+  padding: 4rem;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+
+  width: 396px;
+}
+
+.btn {
+  border-radius: 5px;
+  background: linear-gradient(to right, #E56ED2, #FE69A3);
+  color: #fff;
+  width: 100%;
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+
+}
+
+img {
+  border-radius: 100%;
+  width: 54px;
+  height: 54px;
+  object-fit: cover;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.btn--small {
+  width: auto;
+  border: none;
+  padding: .5rem 1rem;
+  font-size: 1.4rem;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
