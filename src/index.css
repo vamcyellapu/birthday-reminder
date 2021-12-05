@@ -44,6 +44,7 @@ h2 {
   gap: 5rem;
 
   width: 396px;
+  box-shadow: 0 10px 50px 1px rgba(0, 0, 0, 0.2);
 }
 
 .btn {
